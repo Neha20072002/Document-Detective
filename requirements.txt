@@ -1,5 +1,7 @@
-langchain
-streamlit
+langchain==0.2.14
+langchain-core==0.2.30
+packaging==23.1
+streamlit==1.37.1
 python-dotenv
 ipykernel
 langchain-community
@@ -14,15 +16,11 @@ chromadb
 sentence_transformers
 langchain_huggingface
 faiss-cpu
-langchain_chroma
 duckdb
 pandas
 openai
 langchain-groq
 duckduckgo_search==5.3.1b1
-pymupdf
-arxiv
-wikipedia
 mysql-connector-python
 SQLAlchemy
 validators==0.28.1
@@ -32,6 +30,5 @@ pytube
 numexpr
 huggingface_hub
 langserve
---extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.3.0+cpu
 torchaudio==2.3.0+cpu
