@@ -29,6 +29,6 @@ unstructured
 pytube
 numexpr
 huggingface_hub
-langserve
-torch==2.3.0+cpu
+langserve==0.2.2  # Adjust this if needed to match Python version
+torch==2.3.0  # Adjust this version if necessary
 torchaudio==2.3.0+cpu
